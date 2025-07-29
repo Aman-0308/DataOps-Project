@@ -13,10 +13,6 @@ This repository contains a production-ready **Apache Airflow DAG** to run Spark-
 ├── Dockerfile # Docker image for Spark ETL job runtime
 └── requirements.txt # Python dependencies (if used in Spark jobs)
 
-yaml
-Copy
-Edit
-
 ---
 
 ## 🧠 Purpose
