@@ -7,7 +7,6 @@ This repository contains a production-ready **Apache Airflow DAG** to run Spark-
 
 ## 🗂️ Repository Structure
 
-.
 ├── dags/
 │ └── spark_etl_dag.py # Airflow DAG using SparkSubmitOperator
 ├── Dockerfile # Docker image for Spark ETL job runtime
@@ -50,7 +49,10 @@ Configurable Docker image, namespace, and resources
 🔧 Assumptions & Requirements
 Spark jobs (extract.py, transform.py, load.py) are part of the Docker image
 
-Airflow is running with access to a Kubernetes cluster
+
+**## 🧱 Components Overview**
+
+
 
 The spark_default Airflow connection is properly set up
 
