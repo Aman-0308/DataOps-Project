@@ -15,6 +15,4 @@ This repo contains a data engineering pipeline built with Spark, scheduled by Ai
 3. Add DAG to Airflow
 4. Ensure Spark image is pullable by your cluster
 
-## License
-MIT
 
